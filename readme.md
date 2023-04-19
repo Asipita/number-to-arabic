@@ -1,6 +1,6 @@
 Convert numbers to arabic numbers
 
-**Example
+## Example
 
 ```
 import {convertToArabic} from '@asipita/number-to-arabic';
