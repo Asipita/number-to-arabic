@@ -11,15 +11,11 @@ const arabicNumberMap: Record<string, string> = {
   "9": "٩",
 };
 
-function convertToArabic(number: number): string {
+export function convertToArabic(number: number): string {
   const numberString = number.toString();
   const arabicNumber = numberString
     .split("")
     .map((digit) => arabicNumberMap[digit])
     .join("");
   return arabicNumber;
-}
-
-module.exports = {
-    convertToArabic
 }
